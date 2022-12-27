@@ -467,7 +467,8 @@ header {
  
 
 
-/* ------Подвал FOOTER------ */
+/*========================== 
+------Подвал FOOTER------ */
 .footer {
     background-color: var(--footer-bg-color);
 }
@@ -495,7 +496,7 @@ header {
 
 
 .social-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -539,6 +540,58 @@ header {
     fill: var(--icons-hover-color);
 } */
 
+
+
+/* ---форма футера--- */
+
+.form-group {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    padding-left: 80px;
+}
+.form-group-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-text-white);
+
+    margin-bottom: 16px;
+}
+.form-group-items {
+    display: flex;
+}
+.form-group-email {
+    margin-right: 24px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.button-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+
+    position: absolute;
+
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+            
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+
+        color:red
+        /* color: rgba(255, 255, 255, 0.6); */
+}
 
 
 
