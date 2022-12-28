@@ -428,13 +428,13 @@
           <p class="form-group-title">Subscribe</p>
           <form class="form-group-items" name="form-group-items">
             <label class="form-group-email">
-              <input type="email" name="e-mail" placeholder="E-mail" />
+              <input type="email" name="e-mail" placeholder="E-mail" required />
             </label>
             <div>
               <button type="submit" class="button button-footer">
                 <span>Subscribe</span>
                 <svg class="icon-icon_send__tg" width="24" height="20">
-                  <use href="./images/icons_forms.svg"></use>
+                  <use href="./images/icons_forms.svg#icon-icon_send__tg"></use>
                 </svg>
               </button>
             </div>
@@ -451,6 +451,63 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
+        <form class="registration-form" name="registration_form">
+          <strong class="modal-title" id=""
+            >Leave your contacts and we will call you back</strong
+          >
+          <div class="registration-form-group" role="group" aria-labelledby="">
+            <label class="registration-form-field">
+              <span class="registration-form-label">Name</span>
+              <input
+                class="registration-form-input"
+                type="text"
+                name="user_name"
+              />
+              <svg class="registration-form-icon" width="18" height="18">
+                <use href=""></use>
+              </svg>
+            </label>
+            <label class="registration-form-field">
+              <span class="registration-form-label">Phone</span>
+              <input
+                class="registration-form-input"
+                type="phone"
+                name="user_phone"
+              />
+              <svg class="registration-form-icon" width="18" height="18">
+                <use href=""></use>
+              </svg>
+            </label>
+            <label class="registration-form-field">
+              <span class="registration-form-label">Email</span>
+              <input
+                class="registration-form-input"
+                type="email"
+                name="user_email"
+              />
+              <svg class="registration-form-icon" width="18" height="18">
+                <use href=""></use>
+              </svg>
+            </label>
+            <label>
+              <span class="registration-form-label">Comment</span>
+              <textarea
+                class="registration-form-massage"
+                name="user-massage"
+                rows="7"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <label class="registration-form-agreement">
+            <input class="registration-form-checkbox" type="checkbox" name="" />
+            <span class="registration-form-text"
+              >I accept the terms and conditions of the
+              <a class="registration-form-link" href="">Privacy Policy</a></span
+            >
+          </label>
+          <button type="submit">Sabmit</button>
+        </form>
       </div>
     </div>
 
