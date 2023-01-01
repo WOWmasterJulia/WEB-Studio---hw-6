@@ -474,15 +474,16 @@ header {
 }
 .footer-content {
     display: flex;
+    padding-top: 100px;
+    
 }
 .logo-text {
-    padding-top: 100px;
-    padding-bottom: 100px;
     margin-right: 120px;
+    padding-bottom: 100px;
 }  
 .footer-social {
-    padding-top: 100px;
-    padding-bottom: 130px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 130px; */
 } 
 .logo-footer {
     color: var(--logo-text-white);
@@ -545,9 +546,9 @@ header {
 /* ---форма футера--- */
 
 .form-group {
-    padding-top: 100px;
-    padding-bottom: 130px;
-    padding-left: 80px;
+    /* padding-top: 100px;
+    padding-bottom: 130px; */
+    margin-left: 80px;
 }
 .form-group-title {
     font-weight: 500;
@@ -567,14 +568,14 @@ header {
     border-radius: 4px;
 } */
 .form-group-items > input {
-        /* border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 4px; */
-        width: 264px;
-        height: 40px;
-        background-color: transparent;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-            border-radius: 4px;
+    /* border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px; */
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 }
 .button-footer {
     display: flex;
@@ -584,6 +585,7 @@ header {
     padding: 8px 24px;
     gap: 16px;
     margin-left: 24px;
+    height: 40px;
 
     position: absolute;
     fill: var(--logo-text-white);
