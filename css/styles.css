@@ -885,13 +885,20 @@ portfolio)*/
         top: -3.45%;
         bottom: 75.86%; */
     
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-           
-        letter-spacing: 0.04em;
-       
-        color: #8E8F99;
-
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
         
+    letter-spacing: 0.04em;
+    
+    color: #8E8F99;      
+}
+.registration-form-text {
+    width: 338px;
+    height: 16px;
+    
+    font-size: 12px;
+    line-height: 1.3;        letter-spacing: 0.04em;
+    
+    color: #757575;
 }
