@@ -857,9 +857,11 @@ portfolio)*/
     margin-right: 24px;
     margin-top: 72px;  
 }
-/* .registration-form-field {
+.registration-form-field {
     margin-bottom: 8px;
-} */
+    display: flex;
+    flex-direction: column;
+} 
 /* .registration-form-field {
     box-sizing: border-box;
     
