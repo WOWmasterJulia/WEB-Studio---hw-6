@@ -855,6 +855,9 @@ portfolio)*/
     display: flex;
     flex-direction: column;
     width: 360px;
+
+    display: block;
+    position: relative;
 } 
 .registration-form-label {
     display: block;
@@ -875,6 +878,10 @@ portfolio)*/
     outline: transparent;
     font-size: 18px;
     transition: border-color var(--anim-fast);
+    padding-left: 40px;
+    padding-right: 40px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .registration-form-input:focus {
     border-color: var(--accent-color);
@@ -896,6 +903,16 @@ portfolio)*/
     /* border-color: var(--accent-color-focus); */
 } 
 
+.registration-form-icon {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.registration-form-input:focus +.registration-form-icon {
+    fill: var(--accent-color)
+}
 .registration-form-massage {
     width: 360px;
     height: 120px;
@@ -921,22 +938,44 @@ portfolio)*/
     color: rgba(117, 117, 117, 0.5);
 }
 
-
+    /* -----checkbox----- */
 .registration-form-agreement {
     margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
+}
+.registration-form-checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+    background-color: transparent;
+    outline: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.registration-form-checkbox:checked {
+    /* background-image: url(../images/icons_all.svg#icon-checkbox); */
+    background-image: url(../images/Checkbox.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--accent-color-focus);
+    border-color: var(--accent-color-focus);
+    outline: transparent;
+
 }
 .registration-form-text {
     width: 338px;
     height: 16px;
     
     font-size: 12px;
-    line-height: 1.3;        letter-spacing: 0.04em;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
     
     color: #757575;
-    margin-left: 8px;
+    user-select: none;
 }
 .registration-form-link {
     color: var(--accent-color);
