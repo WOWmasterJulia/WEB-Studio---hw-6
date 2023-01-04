@@ -808,6 +808,7 @@ portfolio)*/
     transition: opacity var(--anim-fast) 200ms,
     transform var(--anim-fast) 200ms;
     padding: 24px;
+    padding-top: 72px;
 }
 
 .backdrop.is-hidden .modal {
@@ -853,7 +854,7 @@ portfolio)*/
     margin-bottom: 16px;
 }
 .registration-form {
-    margin-top: 72px;  
+    /* margin-top: 72px;   */
 }
 .registration-form-field {
     margin-bottom: 8px;
