@@ -570,7 +570,22 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    outline: transparent;
 }
+input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .button-footer {
     display: flex;
     justify-content: center;
@@ -585,18 +600,7 @@ header {
     border-radius: 4px;
 }
 
-input::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-        
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
 
-    color: rgba(255, 255, 255, 0.6); 
-    padding-left: 16px;
-}
 
 
 
@@ -827,6 +831,7 @@ portfolio)*/
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    outline: transparent;
 
     /* ---анимация--- */
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -877,11 +882,11 @@ portfolio)*/
     border-radius: 4px; 
     outline: transparent;
     font-size: 18px;
-    transition: border-color var(--anim-fast);
+    /* transition: border-color var(--anim-fast); */
     padding-left: 40px;
     padding-right: 40px;
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .registration-form-input:focus {
     border-color: var(--accent-color);
